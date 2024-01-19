@@ -14,7 +14,7 @@ class StyledElevatedButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        backgroundColor: primary? MyColors.primary : MyColors.secondary,
+        // backgroundColor: primary? MyColors.primary : MyColors.secondary,
         shape: const BeveledRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(4)),
         ),
@@ -22,7 +22,8 @@ class StyledElevatedButton extends StatelessWidget {
       onPressed: onPressed,
       child: Text(
         label,
-        style:  TextStyle(color: primary? MyColors.secondary : MyColors.primary),
+        // style:
+        // TextStyle(color: primary ? MyColors.secondary : MyColors.primary),
       ),
     );
   }
