@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         //             fontWeight: FontWeight.normal,
         //             color: kColorScheme.onSecondaryContainer,
         //             fontSize: 18))),
-        theme: ThemeData.dark(),
+        theme: ThemeData.dark(useMaterial3: true),
         debugShowCheckedModeBanner: false,
         home: const Expenses());
   }
